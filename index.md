@@ -46,6 +46,61 @@ _"Solo colui che giura fedeltà alla Serpe potrà avanzare. Ma attenzione, poich
 
 ⚠ **Conseguenza:** Se inseriscono un frammento sbagliato, appare un **Golem di Scaglie** e attacca!
 
+#### **🧩 Regole del Puzzle**
+1. Dopo ogni tentativo, il serpente **si illumina progressivamente** per mostrare **quanti pezzi sono corretti**, senza rivelare **quali**.
+2. I segmenti del serpente si colorano in ordine:
+   - **🟩 Verde** → Un pezzo è corretto e nella posizione giusta.
+   - **🟨 Giallo** → Un pezzo è presente nella soluzione, ma è nella posizione sbagliata.
+   - **⚫ Nero (Spento)** → Un pezzo è completamente sbagliato.
+3. L’illuminazione **non segue l’ordine dei pezzi inseriti**, ma si **riempie progressivamente** da sinistra a destra.
+
+#### **🔍 Esempio di Giocata**
+
+**Soluzione segreta:**
+➡ **A - D - E - F**
+
+**Primo tentativo dei PG:**
+➡ **A - B - C - D**
+
+**Risultato:**
+🟩🟨⚫⚫
+- 🟩 **(1 Verde)** → Uno dei pezzi è corretto e nella posizione giusta.
+- 🟨 **(1 Giallo)** → Uno dei pezzi è corretto, ma nella posizione sbagliata.
+- ⚫ **(2 Neri)** → Due pezzi sono completamente sbagliati.
+
+💡 **Ma attenzione!**
+I PG **non sanno quali pezzi sono giusti o sbagliati**. Sanno solo che:
+- **Ci sono due pezzi corretti (uno al posto giusto, uno fuori posto).**
+- **Ci sono due pezzi completamente sbagliati.**
+- **Non sanno quale sia quale!**
+
+**Secondo Tentativo dei PG:**
+➡ **A - D - E - B**
+
+**Risultato:**
+🟩🟨🟨⚫
+- 🟩 **(1 Verde)** → Uno dei pezzi è giusto e nella posizione corretta.
+- 🟨🟨 **(2 Gialli)** → Due pezzi sono corretti ma nella posizione sbagliata.
+- ⚫ **(1 Nero)** → Un pezzo è completamente errato.
+
+🔍 **Analisi:**
+- Ora sanno che **tre pezzi sono giusti**, ma solo uno è al posto corretto.
+- Devono capire quali spostare!
+
+**Terzo Tentativo:**
+➡ **A - D - F - E**
+
+**Risultato:**
+🟩🟩🟩🟩 **(Successo! Il serpente si illumina completamente di verde!)**
+
+✅ **Il puzzle è risolto e la porta si apre!**
+
+#### **⛔ Conseguenze degli Errori**
+Se i PG sbagliano **troppi tentativi**, il santuario reagisce:
+1. **Dopo 3 errori** → Il pavimento diventa **scivoloso** (Svantaggio ai tiri su Destrezza).
+2. **Dopo 5 errori** → Il mosaico emette **un’onda psichica** (Danno psichico leggero).
+3. **Dopo 7 errori** → Il serpente si anima e attacca come un **Golem di Scaglie!**
+
 ---
 
 ## **3️⃣ Corridoio del Sussurro Serpeggiante (Sfida di Percezione e Stealth)**
@@ -94,4 +149,6 @@ Dopo aver consegnato le armi, Zz’thilara scompare tra le ombre, lasciando ai P
 ---
 
 **Fine della One-Shot! Buona avventura!** 🎲
+
+
 
